@@ -5,7 +5,7 @@ on:
 jobs:
   Build:
     # runs-on: self-container-runner
-    runs-on: custom-runner
+    runs-on: my-runner
     steps:
       - name: Conditional Job 1
         run: echo "This is Job 1"
